@@ -1,1 +1,16 @@
-. 
+#include <iostream>
+using namespace std;
+int main() {
+    
+int rows=5;
+int seats=10;
+int i,j;
+for(i=1; i<=rows; i++){
+    cout<<"Row"<<"-"<<i<<endl;
+    for(j=1; j<=seats; j++){
+        cout<<"Seat"<<":"<<j<<endl;
+    }
+    cout<<endl;
+}
+return 0;
+}
