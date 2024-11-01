@@ -1,1 +1,15 @@
-. 
+#include <iostream>
+using namespace std;
+int main() {
+    
+int weeks=3;
+int i,j;
+for(i=1; i<=weeks; i++){
+    cout<<"week"<<"-"<<i<<endl;
+    for(j=1; j<=7; j++){
+        cout<<"Day"<<":"<<j<<endl;
+    }
+    cout<<endl;
+}
+return 0;
+}
